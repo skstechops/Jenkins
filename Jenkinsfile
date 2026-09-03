@@ -16,7 +16,7 @@ pipeline {
             steps {
                 echo 'Build Started'
 
-                sh 'test -f index.html'
+                sh 'test -f indexjen.html'
                 sh 'test -f test.sh'
 
                 echo 'Build Completed'
